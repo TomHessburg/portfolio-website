@@ -1833,6 +1833,12 @@ input, select, textarea {
 			border: 0;
 		}
 
+		#nav ul li a.active span:before {
+			color: rgb(179, 194, 255) !important;
+			box-shadow: 0 0 5px 15px rgb(255, 249, 249, .2);
+		}
+
+
 /* Form */
 
 	form label {
@@ -1974,7 +1980,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7eaeac;
+			background-color: black;
 		}
 
 /* Item */
